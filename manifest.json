@@ -1,0 +1,16 @@
+{
+  "name": "LoreNest",
+  "short_name": "MojaApp",
+  "description": "Aplikacja do XYZ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b3d91",
+  "icons": [
+    {
+      "src": "logo720.png",
+      "sizes": "720x720",
+      "type": "image/png"
+    }
+  ]
+}

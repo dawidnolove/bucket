@@ -1,0 +1,16 @@
+CREATE USER 'dawid_admin'@'localhost' IDENTIFIED BY 'admin';
+
+CREATE DATABASE lore;
+USE lore;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) UNIQUE NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+GRANT ALL PRIVILEGES ON lore_nest.* TO 'dawid_admin'@'localhost';
+
+FLUSH PRIVILEGES;
