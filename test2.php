@@ -155,10 +155,14 @@ h1 {
 footer {
     background-color: #333;
     text-align: center;
-    padding: 10px;
+    padding: 5px 0;
     color: #aaa;
     box-shadow: 0px -3px 10px #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 
 .modal {
     display: none;
